@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+
+.slider_container{
+
+    width:50%;
+    margin:auto;
+    border:1px solid black;
+    overflow: hidden;
+
+}
+.slider >img{
+    width: 924px;
+    position: relative;
+
+}
+.slider{
+
+    position: relative;
+    display:flex;
+}
+
+#prevbtn{
+    position: absolute;
+    top: 29%;
+    right:70%;
+    z-index: 1;
+    transform: rotate(293deg);
+}
+
+#nextbtn{
+    position: absolute;
+    top: 29%;
+    z-index: 1;
+    left :70%;
+    transform: rotate(113deg);
+
+}
